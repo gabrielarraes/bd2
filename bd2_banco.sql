@@ -229,3 +229,5 @@ UNLOCK TABLES;
 CREATE USER 'gabriel123'@'localhost' IDENTIFIED BY 'gabriel1234';
 CREATE USER 'gabriel34231'@'localhost' IDENTIFIED BY 'gabriel12345';
 GRANT ALL ON skateshop.* TO 'gabriel123'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE  ON skateshop.* TO 'gabriel34231'@'localhost';
+
